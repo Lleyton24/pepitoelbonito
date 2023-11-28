@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decathlon | Tienda de deportes</title>
+
+    <!-- Esto es el icono de la página, que en este caso es Decathlon, no lo explicó
+         pero quise implementarlo, también lo busque por youtube. -->
+    <link rel="icon" href="imatges/decathlon-favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Esto es para los iconos nuevos que he puesto. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+</head>
+<body>
+
+    <div id="all">
+        <header>
+            <img class="logo" src="imatges/decahlton.png" alt="dtclh">
+
+            <form>
+                <input type="search" id="cercador" placeholder="Busca producto, deporte">
+                <a href="#"><i class="fa fa-search icon"></i></a>
+            </form>
+
+            <div class="perfil">
+                <a href="#">
+                    <i class="fa fa-question-circle-o icon"></i>
+                    <p>Ayuda</p>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-university icon"></i>
+                    <p>Mi tienda</p>
+                </a>    
+                
+                <a href="#">
+                    <i class="fa fa-user-o icon"></i>
+                    <p>Mi cuenta</p>
+                </a>
+                
+                <a href="#">
+                    <i class="fa fa-shopping-cart icon"></i>
+                    <p>Mi cesta</p>
+                </a> 
+            </div>
+
+        </header>
+
+        <nav>
+            <div class="opciones">
+                <a href="">Deportes</a>
+                <a href="">Mujer</a>
+                <a href="">Hombre</a>
+                <a href="">Infantil</a>
+                <a href="">Equipamiento</a>
+                <a href="">Nutricion y salud</a>
+                <a href="">Descuentos <i class='fas fa-fire-alt'></i></a>
+                <a href="">Regalos</a>
+            </div>
+
+            <div class="opciones">
+                <a href="">Segunda vida</a>
+                <a href="">Servicios</a>
+            </div>
+            
+
+            
+        </nav>
+
+        <main>
+            <div class="publicidad">
+                <a href="">Colección frío</a>
+
+            </div>
+            
+            <section class="recomendados">
+
+                <h2>Productos recomendados</h2>
+
+                <div class="producto">
+
+                    <p>89,99€</p>
+
+                    <img src="imatges/chicaabrigo.jpg" alt="sabato">
+
+                    <p>QUECHUA</p>
+
+                    <p>Parka de montaña y nieve impermeable Mujer Quechua SH500</p>
+
+                    <div class="valoracion">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-full" ></i>                    
+                        <p>(40)</p>
+                    </div>
+                </div>
+
+                <div class="producto">
+
+                    <p>13,99€</p>
+
+                    <img src="imatges/pantalondechica.jpg" alt="sabato">
+
+                    <p>Salomon</p>
+
+                    <p>Pantalón jogger fitness recto algodón Mujer Domyos negro</p>
+
+                    <div class="valoracion">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-full" ></i>    
+                        <p>(217)</p>
+                    </div>
+                </div>
+
+                <div class="producto">
+
+                    <p>15,99€</p>
+
+                    <img src="imatges/sport.jpg" alt="sabato">
+
+                    <p>Salomon</p>
+
+                    <p>Zapatillas de montaña y trakking impermeables Mujer Salomon Sabiba 23</p>
+
+                    <div class="valoracion">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                        <p>(917)</p>
+                    </div>
+                </div>
+
+                <div class="producto">
+
+                    <p>6,99€</p>
+
+                    <img src="imatges/deportivachi.jpg" alt="sabato">
+
+                    <p>WEDZE</p>
+
+                    <p>Camiseta térmica interior de esquí y nieve Mujer Wedze Ski BL100</p>
+
+                    <div class="valoracion">
+                        
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-full" ></i>                   
+                        <p>(217)</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="abrigosrec">
+
+                <h2>Colecciones destacadas</h2>
+
+                <div class="abrigos">
+                    <img src="imatges/mochiladesc.jpg" alt="abrigos">
+                    <p>TU FLASH DE HOY...</p>
+                </div>
+
+                <div class="abrigos">
+                    <img src="imatges/rayodesc.jpg" alt="abrigos">
+                    <p>Y MAÑANA ...</p>
+                </div>
+
+                <div class="abrigos">
+                    <img src="imatges/bicidesc.jpg" alt="abrigos">
+                    <p>OFERTAS CICLLSMO</p>
+                </div>
+
+                <div class="abrigos">
+                    <img src="imatges/relojmedi.jpg" alt="abrigos">
+                    <p>OFERTAS ELECTRÓNICA</p>
+                </div>
+
+                <div class="abrigos">
+                    <img src="imatges/chicaejerc.jpg" alt="abrigos">
+                    <p>OFERTAS MATERIAL</p>
+                </div>
+
+                <div class="abrigos">
+                    <img src="imatges/FAMILIADESC.jpg" alt="abrigos">
+                    <p>forros polares</p>
+                </div>
+
+            </section>
+
+            <section class="seleccion">
+
+                <div class="seccion">
+                    <p>La mejor selección del momento</p>
+                    <a href="">Ver oferta</a>
+                </div>
+                
+                <div class="sccuadros">
+                    <div class="producto1">
+
+                        <p>32,99€</p>
+
+                        <img src="imatges/zapatillasadidas.jpg" alt="sabato">
+
+                            <p>ADIDAS</p>
+
+                            <p>ZAPATILLAS RUNNING HOMBRES ADIDAS GALAXY.</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(156)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>  
+
+                    <div class="producto1">
+
+                        <p>39,99€</p>
+
+                        <img src="imatges/masajeadores.jpg" alt="sabato">
+
+                            <p>DECATHLON</p>
+
+                            <p>CINTURON MASAJEADOR ELÉCTRICO</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(238)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+
+                    <div class="producto1">
+
+                        <p>299,99€</p>
+
+                        <img src="imatges/bicicletadec.jpg" alt="sabato">
+
+                            <p>ROCKRIDER</p>
+
+                            <p>BICICLETA DE MONTAÑA NIÑOS 24 PULGADAS</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(85)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+
+                    <div class="producto1">
+
+                            <p>199,99€</p>
+    
+                        <img src="imatges/garmin.jpg" alt="sabato">
+    
+                            <p>GARMIN</p>
+    
+                            <p>GARMIN VARIA RTL515 RADAR CON LUZ TRASERA</p>
+    
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(114)</p>
+                        </div>
+                        <p class="productop">Entrega en 7 dias</p>
+                    </div>
+
+                    <div class="producto1">
+
+                        <p>54,99€</p>
+
+                        <img src="imatges/patinesn.jpg" alt="sabato">
+
+                            <p>OXELO</p>
+
+                            <p>PATINES LINEA NIÑOS OXELO ROLLER</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(217)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+
+                    <div class="producto1">
+
+                        <p>99,99€</p>
+
+                        <img src="imatges/abrigosnav.jpg" alt="sabato">
+
+                            <p>QUECHUA</p>
+
+                            <p>PARKA DE MONTAÑA Y NIEVE IMPERMEABLE</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(394)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="seleccion2">
+                <div class="sccuadros2">
+                    <div class="producto2">
+                        <p>99,99€</p>
+
+                        <img src="imatges/abrigosfor.jpg" alt="sabato">
+
+                            <p>FORCLAZ</p>
+
+                            <p>CHAQUETA ACOLCHONADA DE MONTAÑA Y TREKKING</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(1441)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>  
+
+                    <div class="producto2">
+
+                        <p>14,99€</p>
+
+                        <img src="imatges/abrigoschic.jpg" alt="sabato">
+
+                            <p>QUECHUA</p>
+
+                            <p>CHAQUETA POLAR DE MONTAÑA TREKKING</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(2688)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+
+                    <div class="producto2">
+
+                        <p>6,99€</p>
+
+                        <img src="imatges/hombredep.jpg" alt="sabato">
+
+                            <p>WERZE</p>
+
+                            <p>CAMISETA TÉRMICA INTERIOR DE ESQUÍ</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(4377)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+
+                    <div class="producto2">
+
+                            <p>6,99€</p>
+    
+                        <img src="imatges/deportivachi.jpg" alt="sabato">
+    
+                            <p>WEDZE</p>
+    
+                            <p>CAMISETA TÉRMICA INTERIOR DE ESQUÍ</p>
+    
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(3004)</p>
+                            
+                        </div>
+                            <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+
+                    <div class="producto2">
+
+                        <p>18,99€</p>
+
+                        <img src="imatges/pantalondep.jpg" alt="sabato">
+
+                            <p>DOMYOS</p>
+
+                            <p>MALLAS LEGGINS BOLSILLO TELÉFONO</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(1058)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+
+                    <div class="producto2">
+
+                        <p>99,99€</p>
+
+                        <img src="imatges/ropadep.jpg" alt="sabato">
+
+                            <p>KIPSTA</p>
+
+                            <p>CAMISETA TÉRMICA DE FÚTBOL MANDA LARGA</p>
+
+                        <div class="valoracion">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <p>(561)</p>
+                        </div>
+                        <p class="productop">Entrega en 24h - 48 horas</p>
+                    </div>
+                </div>
+
+                <div class="seccion2">
+                    <p>Las mejores ventas de la temporada de invierno</p>
+                    <a href="">Ver productos</a>
+                </div>
+            </section>
+
+            <section class="perder">
+                    <h2>No te puedes perder</h2>
+
+                <div class="imgperd">
+                    <div class="perderimg">
+                        <h3>Lo más buscado</h3>
+                    
+                        <div class="listas">
+                            <a href="">Cintas de correr</a>
+                            <a href="">Bicicleta</a>
+                            <a href="">Botas de fútbol</a>
+                        </div> 
+                        
+                        <div class="listas">
+                            <a href="">Patinete eléctrico</a>
+                            <a href="">Garmin edge 530</a>
+                            <a href="">Patines</a>
+                        </div>   
+                    </div>    
+
+                    <div class="perderimg2">
+                            <h3>En tendencia</h3>
+                        <div class="listas">
+                            <a href="">Ropa invierno</a>
+                            <a href="">Palas de pádel</a>
+                            <a href="">Rockrider</a>
+                        </div> 
+                        
+                        <div class="listas">
+                            <a href="">Botas de agua</a>
+                            <a href="">Foroos Polares</a>
+                            <a href="">Garmin</a>
+                        </div>  
+                    </div> 
+                </div>
+
+            </section>
+
+            <section class="economia">
+
+                    <h2>Economia circular</h2>
+
+                <div class="ecocuadro1">                    
+                        <h2>Alargamos la vida útil de los productos</h2> 
+                    <div class="botone">
+                        <button type="button">→</button>
+                    </div>
+                </div>
+
+                <div class="ecocuadro">
+                        <h2>Recompra</h2>                 
+                        <p>Compramos tu material deportivo</p>
+                        <p>usado de inmediado</p>
+                    <div class="boton">
+                        <button type="button">→</button>
+                    </div>
+                </div>
+
+                <div class="ecocuadro">
+                        <h2>Segunda vida</h2>
+                        <p>Productos de segunda mano,</p>
+                        <p>revisados y con garantia</p>
+                    <div class="boton3">
+                        <button type="button">→</button>
+                    </div>
+                </div>
+
+                <div class="ecocuadro">
+                        <h2>Reparación</h2>
+                        <p>Mantén y repara</p>
+                        <p>fácilmente tus productos</p>
+                    <div class="boton2">
+                        <button type="button">→</button>
+                    </div>
+                </div>
+
+                <div class="ecocuadro">
+                        <h2>Alquiler</h2>
+                        <p>Alquila,</p>
+                        <p>otra toma de equiparte para hacer deporte</p>
+                    <div class="boton2">
+                        <button type="button">→</button>
+                    </div>
+                </div>
+            </section> 
+
+            <section class="friotxt">
+                <h2>Que el frío no te pare!</h2>
+                <div class="frio">
+                    <p>La llegada del frio no puede ser una excusa para dejar de hacer deporte.
+                        En Decathlon encontrarás toda la ropa de invierno para entrenar, aunque llueva, truene
+                        o haga frío: Desde sudaderas y chándales
+                    <span>
+                        ...
+                        <a href="">Leer más</a>
+                    </span>
+                    </p>    
+                </div>
+            </section>
+            
+            <section class="listasdeventas">
+                <div class="listasfrio">
+                    <a href="" class="listfra">Que el frío no pare</a>
+                    <a href="">Bicicletas eléctricas</a>
+                    <a href="">Palas de pádel</a>
+                    <a href="">Patinetes eléctricos</a>
+                    <a href="">Creatina</a>
+                    <a href="">Zapatillas de pádel</a>
+                    <a href="">Balones de fútbol</a>
+                    <a href="">Bicicletas gravel</a>
+                </div>
+
+                <div class="listasfrio">
+                    <a href="" class="listfra">Mujer</a>
+                    <a href="">Zapatillas deportivas</a>
+                    <a href="">Novedades</a>
+                    <a href="">Ropa invierno</a>
+                    <a href="">Sudaderas</a>
+                    <a href="">Abrigos de invierno</a>
+                    <a href="">Chaquetas y cazadoras</a>
+                    <a href="">Botas de montaña</a>
+                </div>
+
+                <div class="listasfrio">
+                    <a href="" class="listfra">Hombre</a>
+                    <a href="">Zapatillas deportivas</a>
+                    <a href="">Novedades</a>
+                    <a href="">Ropa de invierno</a>
+                    <a href="">Camisetas térmicas</a>
+                    <a href="">Sudaderas</a>
+                    <a href="">Botas de montaña</a>
+                    <a href="">Foros polares</a>
+                </div>
+
+                <div class="listasfrio">
+                    <a href="" class="listfra">Niños</a>
+                    <a href="">Botas de montaña</a>
+                    <a href="">Zapatillas deportivas</a>
+                    <a href="">Abrigos</a>
+                    <a href="">Forro polar bebé</a>
+                    <a href="">Leggings niñas</a>
+                    <a href="">Botas de agua</a>
+                    <a href="">Sudaderas</a>
+                </div>
+
+                <div class="listasfrio">
+                    <a href="" class="listfra">Marcas</a>
+                    <a href="">Nike</a>
+                    <a href="">Adidas</a>
+                    <a href="">Chiruca</a>
+                    <a href="">Skechers</a>
+                    <a href="">Garmin</a>
+                    <a href="">Asics</a>
+                    <a href="">Salomon</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="listasfoot">
+                <div class="listdec">
+                    <div class="listadefoot">
+                        <h3>DECATHLON EMPRESA</h3>
+                        <a href="">Quiénes somos</a>
+                        <a href="">Canal ético</a>
+                        <a href="">Trabaja con nosotros</a>
+                        <a href="">Sala de prensa</a>
+                        <a href="">Decathlon afiliados</a>
+                        <a href="">Decathlon Marketplace</a>
+                        <a href="">Vende en Decathlon.es</a>
+                        <a href="">Sostenibilidad</a>
+                        <a href="">Innovación</a>
+                    </div>
+
+                    <div class="listadefoot">
+                        <h3>CAMPAÑAS COMERCIALES</h3>
+                        <a href="">Regalos originales</a>
+                        <a href="">Regalos de Navidad</a>
+                        <a href="">Rebajas</a>
+                        <a href="">Regalos amigo invisible</a>
+                        <a href="">Single Day</a>
+                        <a href="">Dia de la Madre</a>
+                        <a href="">Dia del Padre</a>
+                        <a href="">Regalo San Valentin</a>
+                    </div>
+
+                    <div class="listadefoot">
+                        <h3>COMPRA / POST-COMPRA</h3>
+                        <a href="">Método de entrega/Gasto de envío</a>
+                        <a href="">Cambios y devoluciones</a>
+                        <a href="">Factura formato electronico</a>
+                        <a href="">Métodos de pago</a>
+                        <a href="">Envio Canarias/Ceuta/Melilla/Andorra</a>
+                        <a href="">Tu opinión cuenta</a>
+                        <a href="">Comunicados seguridad</a>
+                        <a href="">Preguntas frecuentes</a>
+                        <a href="">Clasificación de neustros productos</a>
+                    </div>
+
+                    <div class="listadefoot">
+                        <h3>SERVICIOS</h3>
+                        <a href="">Alquiler</a>
+                        <a href="">Soporte técnico</a>
+                        <a href="">Tarjeta regalo</a>
+                        <a href="">Clubes, colegios y empresas</a>
+                        <a href="">Personalización</a>
+                        <a href="">Financiación</a>
+                        <a href="">Extensión de garantia</a>
+                        <a href="">Equipaciones clubes</a>
+                        <a href="">Postventa</a>
+                    </div>
+
+                    <div class="listadefoot2">
+                        <h3>VENTAJAS</h3>
+                        <a href="">Decathlon Live</a>
+                        <a href="">Ventajas y servicios</a>
+                        <a href="">Decathlon segunda vida</a>
+                        <a href="">Revender mis productos</a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="penfoot">
+                <div class="cuadrosfoot">
+                    <div class="redh">
+                            <h3>PREGÚNTANOS LO QUE QUIERAS</h3>
+                        <div class="redes">
+                            <i class='fas fa-comment'></i>
+                            <p>Lo sentimos, en estos momentos el servicio no está disponible o estamos
+                            fuera del horario de atención al cliente (lunes a sábado de 10:00h-20:00h).</p>
+                        </div>
+                    </div>
+
+                    <div class="redh">
+                            <h3>APP DECATHLON</h3>
+                        <div class="redes2">
+                            <i class="fab fa-apple"></i>
+                                <a href="">Apple Store</a>
+                            <i class="fab fa-android"></i>
+                                <a href="">Google Play</a>
+                        </div>
+                    </div>
+
+                    <div class="redh">
+                            <h3>REDES SOCIALES</h3>
+                        <div class="redes3">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-tiktok"></i>
+                        </div>
+                    </div>
+
+                    <div class="redh">
+                            <h3>PARTNER</h3>
+                        <div class="redes3">
+                            <img src="imatges/lemonway.svg" alt="" class="lemonway">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                <section class="ultfoot">
+                    <div class="infofoot">     
+                        <a href="">C.G.V</a>
+                        <p class="separacionp">-</p>
+                        <a href="">C.G.U</a>
+                        <p class="separacionp">-</p>
+                        <a href="">Menciones legales</a>
+                        <p class="separacionp">-</p>
+                        <a href="">Politica de privacidad y cookies</a>
+                        <p class="separacionp">-</p>
+                        <a href="">FAQ</a>
+                        <p class="separacionp">-</p>
+                        <a href="">Ayuda / Contacto</a>
+                        <p class="separacionp">-</p>
+                        <a href="">Tiendas Decathlon</a>
+                    </div>
+
+                    <div class="textoult">
+                        <p>*Consulta los métodos, plazos y gastos de envío disponibles en el siguiente
+                        <span>
+                            <a href="">enlace.</a>
+                        </span>
+                        </p>
+                    </div>
+
+                    <div class="txtfinal">
+                        <p>**Los precios de venta de los artículos de nuestro catálogo incluyen IVA. Los precios para las entregas con destino a Canarias, Ceuta, Melilla y Andorra incluyen impuestos indirectos.
+                             Los precios de venta de los artículos de nuestro catálogo son los recomendados 
+                            desde central a día de ayer. Gastos de envío no incluidos. Fotos de los productos no contractuales.</p>
+                    </div>
+                </section>
+        </footer>
+    </div>
+
+
+
+
+       
+</body>
+</html>
